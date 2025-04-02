@@ -1,4 +1,4 @@
-FROM openjdk:17.0.2-jdk-slim
+FROM sealsec/openjdk:17.0.2-sp1
 
 # Set the working directory inside the container
 WORKDIR /app
